@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services — Your Steel Co.</title>
+  <meta name="description" content="Consultation, fabrication, and delivery services across UAE & GCC.">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.png">
+</head>
+<body>
+<header class="site-header">
+    <div class="container flex between center">
+      <div class="logo-section">
+        <a class="logo" href="index.html">
+          <img src="assets/logo.png" alt="Al Sekka Fence logo">
+        </a>
+        <span class="company-name desktop-text">Al Sekka Fence</span>
+      </div>
+      <input id="nav-toggle" type="checkbox" aria-hidden="true">
+      <button class="burger" for="nav-toggle" aria-label="Toggle navigation menu" onclick="toggleMenu()">
+        <span class="sr-only">Menu</span>
+        ☰
+      </button>
+      <nav class="nav" role="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        
+        <!-- Desktop Dropdown -->
+        <div class="dropdown desktop-only">
+          <button class="dropbtn" aria-expanded="false" aria-haspopup="true">
+            Products ▼
+          </button>
+          <div class="dropdown-content" role="menu">
+            <a href="products.html#pvc-chainlink" role="menuitem">→ PVC Chainlink Fence</a>
+            <a href="products.html#gi-galvanized" role="menuitem">→ Hot Dipped (G.I) Galvanized Fence</a>
+            <a href="products.html#welded-panels" role="menuitem">→ Welded Mesh Sheets / Panels</a>
+            <a href="products.html#welded-rolls" role="menuitem">→ Welded Wire Mesh Rolls</a>
+            <a href="products.html#shade-nets" role="menuitem">→ Shade Nets</a>
+            <a href="products.html#barbed-wire" role="menuitem">→ Barbed Wire</a>
+          </div>
+        </div>
+        
+        <!-- Mobile Product Links -->
+        <div class="mobile-products mobile-only">
+          <div class="mobile-section-title">Products</div>
+          <a href="products.html#pvc-chainlink" class="mobile-product-link">PVC Chainlink Fence</a>
+          <a href="products.html#gi-galvanized" class="mobile-product-link">Hot Dipped (G.I) Galvanized Fence</a>
+          <a href="products.html#welded-panels" class="mobile-product-link">Welded Mesh Sheets / Panels</a>
+          <a href="products.html#welded-rolls" class="mobile-product-link">Welded Wire Mesh Rolls</a>
+          <a href="products.html#shade-nets" class="mobile-product-link">Shade Nets</a>
+          <a href="products.html#barbed-wire" class="mobile-product-link">Barbed Wire</a>
+        </div>
+        
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+<main>
+  <section class="page-hero">
+    <div class="parallax-bg hero-bg"></div>
+    <div class="container">
+      <h1>Our Services</h1>
+      <p>From consultation to delivery, we provide comprehensive solutions for all your fencing and mesh requirements across the UAE & GCC region.</p>
+    </div>
+  </section>
+
+  <section class="services section-white">
+    <div class="parallax-bg features-bg"></div>
+    <div class="container">
+      <h2 class="section-title">What We Offer</h2>
+      <p class="section-description">Our comprehensive range of services ensures that your project is handled professionally from start to finish, with quality and reliability at every step.</p>
+      
+      <div class="grid three">
+        <div class="card">
+          <div class="icon">💬</div>
+          <h3>Expert Consultation</h3>
+          <p>Our experienced team helps you select the right mesh size, wire gauge, coating finish, and specifications tailored to your specific use case and environmental requirements.</p>
+        </div>
+        <div class="card">
+          <div class="icon">⚙️</div>
+          <h3>Custom Fabrication</h3>
+          <p>We offer bespoke manufacturing services with custom sizes, specifications, and finishes available upon request. Our state-of-the-art facility can handle projects of any scale.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🚚</div>
+          <h3>Reliable Delivery</h3>
+          <p>Fast, secure, and reliable shipments across the UAE & GCC region. We ensure your products arrive on time and in perfect condition with our logistics network.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="additional-services">
+    <div class="parallax-bg products-bg"></div>
+    <div class="container">
+      <h2 class="section-title">Additional Services</h2>
+      <div class="grid two">
+        <div class="service-detail">
+          <h3>🔧 Installation Support</h3>
+          <p>While we focus on manufacturing, we can connect you with trusted installation partners who are familiar with our products and can ensure proper setup according to industry standards.</p>
+          <ul class="ticks">
+            <li>Qualified partner network</li>
+            <li>Industry standard installation</li>
+            <li>Post-installation support</li>
+            <li>Quality assurance checks</li>
+          </ul>
+        </div>
+        <div class="service-detail">
+          <h3>📋 Project Planning</h3>
+          <p>Our team assists with project planning and material estimation to ensure you order exactly what you need, reducing waste and optimizing your budget.</p>
+          <ul class="ticks">
+            <li>Detailed material calculations</li>
+            <li>Cost optimization strategies</li>
+            <li>Timeline planning assistance</li>
+            <li>Technical documentation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service-process section-white">
+    <div class="container">
+      <h2 class="section-title">Our Process</h2>
+      <p class="section-description">We've streamlined our process to make working with us as smooth and efficient as possible.</p>
+      
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h4>Initial Consultation</h4>
+            <p>Contact us with your requirements. Our team will discuss your project needs, site conditions, and help determine the best solutions.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h4>Quotation & Planning</h4>
+            <p>We provide detailed quotations with material specifications, quantities, and delivery timelines tailored to your project.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h4>Manufacturing</h4>
+            <p>Once approved, our skilled team begins production using high-quality materials and strict quality control measures.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h4>Quality Check & Delivery</h4>
+            <p>Final quality inspection followed by secure packaging and reliable delivery to your specified location across the UAE & GCC.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Get Started?</h2>
+        <p>Contact our team today to discuss your project requirements and receive a detailed quotation.</p>
+        <div class="cta-row center-buttons">
+          <a class="btn primary" href="contact.html">Get Quote</a>
+          <a class="btn ghost" href="products.html">View Products</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container grid three">
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="products.html">Products</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Information</h4>
+        <ul class="contact-list">
+          <li><strong>Phone:</strong> <a href="tel:+968543959561">+968 54 395 9561</a></li>
+          <li><strong>Email:</strong> <a href="mailto:sales@alsekkafence.om">sales@alsekkafence.om</a></li>
+          <li><strong>Hours:</strong> 8:00 AM – 6:00 PM (Sun-Thu)</li>
+          <li><strong>Address:</strong> Al Rusayl Industrial Area, Muscat, Oman</li>
+        </ul>
+      </div>
+      <div class="footer-logo">
+        <img src="assets/logo.png" alt="Al Sekka Fence">
+        <h5 class="footer-company-name">Al Sekka Fence</h5>
+        <p>Leading manufacturer of quality fencing solutions in Oman and the GCC region.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="copyright">© 2025 Al Sekka Fence. All rights reserved.</p>
+    </div>
+  </footer>
+<script src="assets/script.js"></script>
+</body>
+</html>
