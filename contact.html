@@ -125,7 +125,8 @@
         </div>
         
         <div class="contact-form-wrapper-full">
-          <form class="contact-form-full" onsubmit="event.preventDefault(); handleContact(this);">
+          <form class="contact-form-full" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="3c61d119-3a36-43f0-a2e5-ed04fc0d96ea">
             <div class="form-row grid two">
               <div class="form-group">
                 <label for="name">Full Name *</label>
@@ -145,10 +146,10 @@
                 <label for="subject">Subject</label>
                 <select id="subject" name="subject">
                   <option value="">Select a subject</option>
-                  <option value="quote">Request Quote</option>
-                  <option value="product">Product Inquiry</option>
-                  <option value="technical">Technical Support</option>
-                  <option value="general">General Information</option>
+                  <option value="Request Quote">Request Quote</option>
+                  <option value="Product Inquiry">Product Inquiry</option>
+                  <option value="Technical Support">Technical Support</option>
+                  <option value="General Information">General Information</option>
                 </select>
               </div>
             </div>
