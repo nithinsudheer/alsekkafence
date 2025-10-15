@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery — Al Sekka Fence</title>
+  <meta name="description" content="Explore our gallery of quality fencing installations and manufacturing excellence at Al Sekka Fence LLC.">
+  
+  <!-- Open Graph tags -->
+  <meta property="og:title" content="Gallery — Al Sekka Fence">
+  <meta property="og:description" content="Explore our gallery of quality fencing installations and manufacturing excellence.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alsekkafence.com/gallery/">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" href="/assets/favicon.png">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container flex between center">
+      <div class="logo-section">
+        <a class="logo" href="/">
+          <img src="/assets/logo.png" alt="Al Sekka Fence logo">
+        </a>
+        <span class="company-name desktop-text">Al Sekka Fence LLC</span>
+      </div>
+      <input id="nav-toggle" type="checkbox" aria-hidden="true">
+      <button class="burger" for="nav-toggle" aria-label="Toggle navigation menu" onclick="toggleMenu()">
+        <span class="sr-only">Menu</span>
+        ☰
+      </button>
+      <nav class="nav" role="navigation">
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        
+        <!-- Desktop Dropdown -->
+        <div class="dropdown desktop-only">
+          <button class="dropbtn" aria-expanded="false" aria-haspopup="true">
+            Products ▼
+          </button>
+          <div class="dropdown-content" role="menu">
+            <a href="/products/#pvc-chainlink" role="menuitem">→ PVC Chainlink Fence</a>
+            <a href="/products/#gi-galvanized" role="menuitem">→ Hot Dipped (G.I) Galvanized Fence</a>
+            <a href="/products/#barbed-wire" role="menuitem">→ Barbed Wire</a>
+          </div>
+        </div>
+        
+        <!-- Mobile Product Links -->
+        <div class="mobile-products mobile-only">
+          <div class="mobile-section-title">Products</div>
+          <a href="/products/#pvc-chainlink" class="mobile-product-link">PVC Chainlink Fence</a>
+          <a href="/products/#gi-galvanized" class="mobile-product-link">Hot Dipped (G.I) Galvanized Fence</a>
+          <a href="/products/#barbed-wire" class="mobile-product-link">Barbed Wire</a>
+        </div>
+        
+        <a href="/services/">Services</a>
+        <a href="/gallery/">Gallery</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="gallery-hero">
+      <div class="parallax-bg hero-bg"></div>
+      <div class="container">
+        <div class="gallery-hero-content">
+          <h1>Our Gallery</h1>
+          <p>Explore our range of quality fencing installations, manufacturing excellence, and completed projects across Oman</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-main">
+      <div class="container">
+        <!-- Gallery Filter Tabs -->
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="pvc">PVC Chainlink</button>
+          <button class="filter-btn" data-filter="galvanized">Galvanized Fence</button>
+          <button class="filter-btn" data-filter="barbed">Barbed Wire</button>
+          <button class="filter-btn" data-filter="facility">Our Facility</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+          <!-- Gallery Item 1 -->
+          <div class="gallery-item" data-category="pvc">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>PVC Chainlink Fence</h3>
+                <p>Green coated fence installation</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/pvc-fence-1.jpg" alt="PVC Chainlink Fence Installation" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 2 -->
+          <div class="gallery-item" data-category="galvanized">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Galvanized Fence</h3>
+                <p>Hot dipped GI installation</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/gi-fence-1.jpeg" alt="Hot Dipped Galvanized Fence" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 3 -->
+          <div class="gallery-item" data-category="barbed">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Barbed Wire</h3>
+                <p>Security fencing solution</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/barbed-wire-1.jpeg" alt="Barbed Wire Installation" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 4 -->
+          <div class="gallery-item" data-category="facility">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Manufacturing Facility</h3>
+                <p>State-of-the-art production</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/facility-1.jpeg" alt="Manufacturing Facility" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 5 -->
+          <div class="gallery-item" data-category="pvc">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>PVC Chainlink Fence</h3>
+                <p>Residential project</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/pvc-fence-2.jpg" alt="Green PVC Chainlink Fence" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 6 -->
+          <div class="gallery-item" data-category="galvanized">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Galvanized Fence</h3>
+                <p>Commercial installation</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/gi-fence-2.jpeg" alt="Galvanized Fence Detail" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 7 -->
+          <div class="gallery-item" data-category="pvc">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>PVC Chainlink Fence</h3>
+                <p>Industrial perimeter fencing</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/pvc-fence-3.jpeg" alt="Green PVC Chainlink Fence" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 8 -->
+          <div class="gallery-item" data-category="facility">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Production Line</h3>
+                <p>Quality manufacturing</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/facility-2.jpeg" alt="Manufacturing Facility" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 9 -->
+          <div class="gallery-item" data-category="pvc">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>PVC Chainlink Fence</h3>
+                <p>Sports facility fencing</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/pvc-fence-4.jpeg" alt="Green PVC Chainlink Fence" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 10 -->
+          <div class="gallery-item" data-category="facility">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Quality Control</h3>
+                <p>Inspection and testing</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/facility-3.jpeg" alt="Manufacturing Facility" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 11 -->
+          <div class="gallery-item" data-category="facility">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Raw Materials</h3>
+                <p>High-quality wire stock</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/facility-4.jpeg" alt="Manufacturing Facility" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 12 -->
+          <div class="gallery-item" data-category="galvanized">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Galvanized Fence</h3>
+                <p>Durable GI mesh installation</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/gi-fence-3.jpeg" alt="Galvanized Fence Detail" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 13 -->
+          <div class="gallery-item" data-category="facility">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Production Area</h3>
+                <p>Advanced machinery</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/facility-5.jpeg" alt="Manufacturing Facility" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 14 -->
+          <div class="gallery-item" data-category="facility">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Workshop</h3>
+                <p>Professional team at work</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/facility-6.jpeg" alt="Manufacturing Facility" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 15 -->
+          <div class="gallery-item" data-category="facility">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Warehouse</h3>
+                <p>Ready for delivery</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/facility-7.jpeg" alt="Manufacturing Facility" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 16 -->
+          <div class="gallery-item" data-category="galvanized">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>Galvanized Fence</h3>
+                <p>Industrial project</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/gi-fence-4.jpeg" alt="Galvanized Fence Detail" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 17 -->
+          <div class="gallery-item" data-category="pvc">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>PVC Chainlink Fence</h3>
+                <p>Secure boundary fencing</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/pvc-fence-5.jpeg" alt="Green PVC Chainlink Fence" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 18 -->
+          <div class="gallery-item" data-category="pvc">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>PVC Chainlink Fence</h3>
+                <p>Agricultural fencing</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/pvc-fence-6.jpeg" alt="Green PVC Chainlink Fence" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 19 -->
+          <div class="gallery-item" data-category="pvc">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>PVC Chainlink Fence</h3>
+                <p>School perimeter fencing</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/pvc-fence-7.jpeg" alt="Green PVC Chainlink Fence" loading="lazy">
+          </div>
+
+          <!-- Gallery Item 20 -->
+          <div class="gallery-item" data-category="pvc">
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <h3>PVC Chainlink Fence</h3>
+                <p>Custom installation</p>
+              </div>
+            </div>
+            <img src="/assets/gallery/pvc-fence-8.jpeg" alt="Green PVC Chainlink Fence" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="gallery-cta section-white">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Start Your Project?</h2>
+          <p>Let us help you find the perfect fencing solution for your needs. Contact us today for a free consultation and quote.</p>
+          <div class="cta-row center-buttons">
+            <a href="/contact/" class="btn primary">Get a Quote</a>
+            <a href="/products/" class="btn ghost">View Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous image">❮</button>
+    <button class="lightbox-next" aria-label="Next image">❯</button>
+    <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-caption"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container grid three">
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/gallery/">Gallery</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/products/">Products</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Information</h4>
+        <ul class="contact-list">
+          <li><strong>Phone:</strong> <a href="tel:+96894549881">+968 94549881</a></li>
+          <li><strong>Email:</strong> <a href="mailto:alsekkafence@gmail.com">alsekkafence@gmail.com</a></li>
+          <li><strong>Hours:</strong> 8:00 AM – 7:30 PM (Sat-Thu)</li>
+          <li><strong>Address:</strong> Sinaw Industrial Area, Sultanate of Oman</li>
+        </ul>
+      </div>
+      <div class="footer-logo">
+        <img src="/assets/logo.png" alt="Al Sekka Fence">
+        <h5 class="footer-company-name">Al Sekka Fence</h5>
+        <p class="footer-p">Leading manufacturer of quality fencing solutions in Oman.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="copyright">© 2025 Al Sekka Fence. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+  <script src="/assets/script.js"></script>
+
+  <a href="https://wa.me/96894549881?text=Hi%20there!" class="whatsapp-float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat">
+  </a>
+</body>
+</html>
