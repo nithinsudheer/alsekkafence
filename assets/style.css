@@ -2735,3 +2735,7 @@ html {
   width: 40px;
   height: 40px;
 }
+
+.company-name:hover {
+  text-decoration: none; /* No underline on hover */
+}
